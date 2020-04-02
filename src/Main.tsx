@@ -8,12 +8,17 @@ import { SkillSets } from "sections/SkillSets";
 import { Summary } from "sections/Summary";
 
 export const Main: React.FC = () => {
-  const { scrollPositionY } = useScroll();
-
-  console.log(scrollPositionY);
+  const { isThresholdSet } = useScrollThreshold(10);
 
   return (
     <>
+      {isThresholdSet ? (
+        <div style={{ position: "fixed", height: "100px", zIndex: 100000 }}>
+          Header!!!
+        </div>
+      ) : (
+        ""
+      )}
       <Hero />
 
       <Summary />
@@ -31,22 +36,31 @@ export const Main: React.FC = () => {
   );
 };
 
-const useScroll = () => {
-  const [scrollPositionY, setScrollPositionY] = useState(0);
+// Re Renders: 4 (better)
+const useScrollThreshold = (threshold: number) => {
+  const [isThresholdSet, setIsThresholdSet] = useState(false);
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      setScrollPositionY(window.scrollY);
+      if (window.scrollY > threshold) {
+        setIsThresholdSet(true);
+      } else {
+        setIsThresholdSet(false);
+      }
     });
 
     return () => {
       window.removeEventListener("scroll", () => {
-        setScrollPositionY(window.scrollY);
+        if (window.scrollY > threshold) {
+          setIsThresholdSet(true);
+        } else {
+          setIsThresholdSet(false);
+        }
       });
     };
   });
 
   return {
-    scrollPositionY
+    isThresholdSet
   };
 };
