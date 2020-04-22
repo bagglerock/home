@@ -1,6 +1,11 @@
 import { useEffect, useState } from "react";
 
-// Re Renders: 4 (better)
+/**
+ *
+ * @param threshold number of pixels from the top where a threshold is set
+ *
+ * Re renders will be 4 at the moment.
+ */
 export const useScrollThreshold = (threshold: number) => {
   const [isThresholdSet, setIsThresholdSet] = useState(false);
 
@@ -25,6 +30,6 @@ export const useScrollThreshold = (threshold: number) => {
   });
 
   return {
-    isThresholdSet
+    isThresholdSet,
   };
 };

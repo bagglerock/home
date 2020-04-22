@@ -1,7 +1,7 @@
 import React from "react";
 import { Contact } from "sections/Contact";
 import { Footer } from "sections/Footer";
-import { Header } from "sections/Header";
+import { Header } from "sections/Header/Header";
 import { Hero } from "sections/Hero/Hero";
 import { Media } from "sections/Media";
 import { Projects } from "sections/Projects";
