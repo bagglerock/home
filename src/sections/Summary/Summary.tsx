@@ -1,7 +1,7 @@
 import React from "react";
 
 export const Summary: React.FC = () => (
-  <div className="summary-section">
+  <div className="summary-section" id="about">
     <h3>
       Challenge driven full stack developer adept at learning new technologies
       and building applications from concept to production.
