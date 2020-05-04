@@ -6,7 +6,7 @@ import { Hero } from "sections/Hero/Hero";
 import { Media } from "sections/Media";
 import { Projects } from "sections/Projects";
 import { SkillSets } from "sections/SkillSets";
-import { Summary } from "sections/Summary";
+import { Summary } from "sections/Summary/Summary";
 
 export const Main: React.FC = () => {
   return (
