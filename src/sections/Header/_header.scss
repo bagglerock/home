@@ -28,7 +28,7 @@
   ul > li > a {
     text-decoration: none;
     color: #fff;
-    font-size: 0.9em;
+    font-size: 18px;
     text-transform: uppercase;
   }
 
@@ -37,8 +37,12 @@
       display: none;
     }
 
+    ul > li > a {
+      font-size: 95%;
+    }
+
     &--open {
-      height: 230px;
+      height: 240px;
       background-color: black;
 
       ul > li:not(:first-child) {
