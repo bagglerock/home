@@ -14,6 +14,11 @@
     background-color: black;
   }
 
+  #hamburger-button {
+    display: none;
+    color: white;
+  }
+
   ul > li {
     display: inline-block;
     margin: 0 1.5em;
@@ -25,5 +30,27 @@
     color: #fff;
     font-size: 0.9em;
     text-transform: uppercase;
+  }
+
+  @media (max-width: 600px) {
+    ul > li:not(:first-child) {
+      display: none;
+    }
+
+    &--open {
+      height: 230px;
+      background-color: black;
+
+      ul > li:not(:first-child) {
+        display: none;
+        display: block;
+        padding: 1em 0;
+      }
+    }
+
+    #hamburger-button {
+      display: block;
+      padding-bottom: 1em;
+    }
   }
 }
