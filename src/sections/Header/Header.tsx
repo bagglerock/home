@@ -1,23 +1,25 @@
-import { faBars } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import classnames from "classnames";
-import { useClickHandler } from "hooks/useClickHandler";
-import { useScrollThreshold } from "hooks/useScrollThreshold";
-import React from "react";
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import classnames from 'classnames';
+import { useNav } from 'hooks/useClickHandler';
+import { useScrollThreshold } from 'hooks/useScrollThreshold';
+import React, { useRef } from 'react';
 
 export const Header: React.FC = () => {
+  const headerNode = useRef(null);
+
   const { isThresholdSet } = useScrollThreshold(10);
-  const { shouldShowNav, toggleNav, closeNav } = useClickHandler();
+  const { shouldShowNav, toggleNav, closeNav } = useNav(headerNode);
 
   const headerClasses = classnames({
     header: true,
-    "header-absolute": !isThresholdSet,
-    "header-fixed": isThresholdSet,
-    "header--open": shouldShowNav,
+    'header-absolute': !isThresholdSet,
+    'header-fixed': isThresholdSet,
+    'header--open': shouldShowNav,
   });
 
   return (
-    <div className={headerClasses}>
+    <div className={headerClasses} ref={headerNode}>
       <ul>
         <li id="hamburger-button">
           <FontAwesomeIcon icon={faBars} onClick={toggleNav} />

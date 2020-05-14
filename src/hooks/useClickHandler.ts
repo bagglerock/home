@@ -1,6 +1,6 @@
-import { useState } from "react";
+import { useEffect, useState } from 'react';
 
-export const useClickHandler = () => {
+export const useNav = (parentNode: React.MutableRefObject<HTMLDivElement | null>) => {
   const [shouldShowNav, setShouldShowNav] = useState(false);
 
   const toggleNav = () => {
@@ -10,6 +10,26 @@ export const useClickHandler = () => {
   const closeNav = () => {
     setShouldShowNav(false);
   };
+
+  useEffect(() => {
+    const handleClickOut = (e: any) => {
+      if (parentNode.current == null) {
+        return;
+      }
+
+      if (parentNode.current.contains(e.target)) {
+        return;
+      }
+
+      setShouldShowNav(false);
+    };
+
+    document.addEventListener('mousedown', handleClickOut);
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOut);
+    };
+  }, [parentNode]);
 
   return {
     shouldShowNav,
