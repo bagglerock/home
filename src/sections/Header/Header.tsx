@@ -1,7 +1,7 @@
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import classnames from 'classnames';
-import { useNav } from 'hooks/useClickHandler';
+import { useNav } from 'hooks/useNav';
 import { useScrollThreshold } from 'hooks/useScrollThreshold';
 import React, { useRef } from 'react';
 
