@@ -12,7 +12,7 @@ export const Projects: React.FC = () => (
 
     <div className="project">
       {projects.map(project => (
-        <div>
+        <div key={project.github}>
           <div className="project-header">
             <h5>{project.name}</h5>
           </div>
