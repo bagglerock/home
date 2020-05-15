@@ -1,16 +1,16 @@
-import triviaReact from '../../assets/trivia-react.png';
-import chefsDen from '../../assets/chefsden.jpg';
-import knockout from '../../assets/knockout.jpg';
-import scrapoogle from '../../assets/scrapoogle.jpg';
-import freightSys from '../../assets/freight-sys.jpg';
-import hangman from '../../assets/hangman.jpg';
-import rps from '../../assets/rps.jpg';
-import trivia from '../../assets/trivia.jpg';
-import clicky from '../../assets/clicky.jpg';
-import peachCo from '../../assets/peachco.gif';
-import binaryCalc from '../../assets/binary-calc.png';
-import ajax from '../../assets/ajax.png';
-import scrapooglePng from '../../assets/scrapoogle.png';
+import triviaReact from '../../assets/projects/trivia-react.png';
+import chefsDen from '../../assets/projects/chefsden.jpg';
+import knockout from '../../assets/projects/knockout.jpg';
+import scrapoogle from '../../assets/projects/scrapoogle.jpg';
+import freightSys from '../../assets/projects/freight-sys.jpg';
+import hangman from '../../assets/projects/hangman.jpg';
+import rps from '../../assets/projects/rps.jpg';
+import trivia from '../../assets/projects/trivia.jpg';
+import clicky from '../../assets/projects/clicky.jpg';
+import peachCo from '../../assets/projects/peachco.gif';
+import binaryCalc from '../../assets/projects/binary-calc.png';
+import ajax from '../../assets/projects/ajax.png';
+import scrapooglePng from '../../assets/projects/scrapoogle.png';
 
 export const projects = [
   {
