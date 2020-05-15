@@ -1,5 +1,5 @@
 import { faChrome } from '@fortawesome/free-brands-svg-icons';
-import { faDesktop, faHandshake, faServer } from '@fortawesome/free-solid-svg-icons';
+import { faDesktop, faHandshake, faServer, faToolbox } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 
@@ -8,6 +8,7 @@ export const SkillSets: React.FC = () => {
     <div className="skills">
       <div className="skills-header">
         <h3>Technical Skills</h3>
+        <FontAwesomeIcon className="skills-header-icon" icon={faToolbox} size="3x" />
       </div>
 
       <div className="skills-lists">
