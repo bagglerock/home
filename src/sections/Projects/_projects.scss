@@ -1,0 +1,56 @@
+.projects {
+  padding: 5em 0;
+  background-color: rgb(25, 21, 65);
+  color: white;
+}
+
+.projects-header {
+  text-align: center;
+}
+
+.project {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  flex-wrap: wrap;
+
+  > div {
+    display: inline-block;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 10px;
+    flex-grow: 1;
+    width: 45%;
+    background-color: rgb(32, 28, 80);
+  }
+
+  .project-header {
+    margin-bottom: 1em;
+  }
+
+  img {
+    margin: 1em;
+    height: 250px;
+  }
+
+  .project-links {
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: space-between;
+
+    a {
+      text-decoration: none;
+      color: goldenrod;
+    }
+  }
+
+  .project-description {
+    margin: 1em;
+  }
+
+  @media (max-width: 600px) {
+    > div {
+      width: 95%;
+    }
+  }
+}
