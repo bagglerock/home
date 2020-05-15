@@ -1,14 +1,4 @@
-.projects {
-  padding: 5em 0;
-  background-color: rgb(25, 21, 65);
-  color: white;
-}
-
-.projects-header {
-  text-align: center;
-}
-
-.project {
+.card {
   display: flex;
   width: 100%;
   text-align: center;
@@ -21,20 +11,20 @@
     border-radius: 10px;
     flex-grow: 1;
     width: 45%;
-    background-color: rgb(32, 28, 80);
+    background-color: rgb(77, 75, 90);
   }
 
-  .project-header {
+  .card-header {
     margin-bottom: 1em;
   }
 
   img {
     margin: 1em;
-    max-width: 350px;
+    max-height: 350px;
     max-width: 350px;
   }
 
-  .project-links {
+  .card-links {
     margin-bottom: 1em;
     display: flex;
     justify-content: space-between;
@@ -45,7 +35,7 @@
     }
   }
 
-  .project-description {
+  .card-description {
     margin: 1em;
   }
 

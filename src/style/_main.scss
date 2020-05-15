@@ -1,6 +1,29 @@
+.section-header {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
 .section-header-icon {
   color: goldenrod;
   margin: 10px;
+}
+
+.skills {
+  padding: 3em 0;
+  background-color: lightgray;
+  color: #555;
+}
+
+.projects {
+  padding: 5em 0;
+  background-color: rgb(25, 21, 65);
+  color: white;
+}
+
+.logos {
+  padding: 2em 0;
+  background-color: rgb(19, 14, 77);
+  color: white;
 }
 
 .contact {

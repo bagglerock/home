@@ -6,7 +6,7 @@ import React from 'react';
 export const SkillSets: React.FC = () => {
   return (
     <div className="skills">
-      <div className="skills-header">
+      <div className="section-header">
         <h3>Technical Skills</h3>
         <FontAwesomeIcon className="section-header-icon" icon={faToolbox} size="3x" />
       </div>
