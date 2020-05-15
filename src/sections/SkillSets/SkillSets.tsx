@@ -8,7 +8,7 @@ export const SkillSets: React.FC = () => {
     <div className="skills">
       <div className="skills-header">
         <h3>Technical Skills</h3>
-        <FontAwesomeIcon className="skills-header-icon" icon={faToolbox} size="3x" />
+        <FontAwesomeIcon className="section-header-icon" icon={faToolbox} size="3x" />
       </div>
 
       <div className="skills-lists">
