@@ -1,0 +1,38 @@
+.logos {
+  padding: 2em 0;
+  background-color: darkslateblue;
+  color: white;
+}
+
+.logos-header {
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  flex-wrap: wrap;
+
+  > div {
+    display: inline-block;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 10px;
+    flex-grow: 1;
+    width: 45%;
+    background-color: slateblue;
+  }
+
+  .logo-header {
+    margin-bottom: 1em;
+  }
+
+  .logo-image {
+    img {
+      margin: 1em;
+      max-width: 350px;
+      max-width: 350px;
+    }
+  }
+}
