@@ -1,27 +1,12 @@
-import triviaReact from '../../assets/projects/trivia-react.png';
 import chefsDen from '../../assets/projects/chefsden.jpg';
-import knockout from '../../assets/projects/knockout.jpg';
-import scrapoogle from '../../assets/projects/scrapoogle.jpg';
 import freightSys from '../../assets/projects/freight-sys.jpg';
 import hangman from '../../assets/projects/hangman.jpg';
+import knockout from '../../assets/projects/knockout.jpg';
+import peachCo from '../../assets/projects/peachco.gif';
 import rps from '../../assets/projects/rps.jpg';
 import trivia from '../../assets/projects/trivia.jpg';
-import clicky from '../../assets/projects/clicky.jpg';
-import peachCo from '../../assets/projects/peachco.gif';
-import binaryCalc from '../../assets/projects/binary-calc.png';
-import ajax from '../../assets/projects/ajax.png';
-import scrapooglePng from '../../assets/projects/scrapoogle.png';
 
 export const projects = [
-  {
-    name: 'Weird Trivia Fun - Using React',
-    img: triviaReact,
-    projectLink: 'https://glacial-bastion-18712.herokuapp.com',
-    githubLink: 'https://github.com/bagglerock/Trivia-React',
-    description:
-      'This is a Trivia Game made up of nonsense questions and answers. It might not make any sense but there are correct answers. The questions and answers are shuffled so memorizing the placement of the answers will not help. Written using ReactJS, Bootstrap, and CSS grid. Bootstrap was just used to help quickly create each of the components. CSS grid was just used to help layout certain parts of the app.',
-    technologies: 'Node.js, Express.js, React, Bootstrap 4+, css modules set to true, Javascript, HTML, CSS',
-  },
   {
     name: "Chef's Den",
     img: chefsDen,
@@ -38,15 +23,6 @@ export const projects = [
     githubLink: 'https://github.com/bagglerock/knockout-fitness',
     description: 'This is a website built for Knockout Fitness Muay Thai in Brick NJ.',
     technologies: 'HTML, CSS, jQuery',
-  },
-  {
-    name: 'Scrappy-Scraper',
-    img: scrapoogle,
-    projectLink: 'https://agile-coast-42538.herokuapp.com/',
-    githubLink: 'https://github.com/bagglerock/Scrappy-Scraper',
-    description:
-      'This app is designed to pull articles from news.google.com with the headline, a brief summary and a link to the actual article.  When update is hit, it will give a list of all the articles that news.google.com provies at the time.  Anything highlighted with a background in green is an article that had previously been saved.  In the saved articles, you have the ability to store any new notes.',
-    technologies: 'Node.js, Express.js, Handlebars, MongoDB, Mongoose, Axios, Cheerio, Javascript, jQuery, HTML, CSS',
   },
   {
     name: 'Freight Systems NJ',
@@ -83,15 +59,6 @@ export const projects = [
     technologies: 'Javascript, jQuery, HTML, CSS, Bootstrap',
   },
   {
-    name: 'Clicky Game',
-    img: clicky,
-    projectLink: 'https://mysterious-stream-83031.herokuapp.com/',
-    githubLink: 'https://github.com/bagglerock/clicky-game',
-    description:
-      'Clicky Game is a small little game much like memory.  Try not to click on the same picture twice and build up your score.  This was my first React App that I had made.',
-    technologies: 'MERN',
-  },
-  {
     name: 'PeachCo Lister 3.0',
     img: peachCo,
     projectLink: 'https://limitless-reaches-23686.herokuapp.com',
@@ -99,31 +66,5 @@ export const projects = [
     description:
       'A browser based application that holds product information and lists products onto Ebay. At the moment the repo is private.  It was originally written using HTML, CSS, Javascript and PHP, but I wanted to make a Single Page version that would be optimized for the tablet.  This one uses React with a Node Backend.  Products are stored in a MySQL database, and sent to Ebay using the npm-package called ebay-api.  Images are sent to another server using the npm package jsftp.',
     technologies: 'ReactJS, MySQL, NodeJS, Express, jsftp, node-ebay-api, multer',
-  },
-  {
-    name: 'Binary Calculator',
-    img: binaryCalc,
-    projectLink: 'https://bagglerock.github.io/Binary-Calculator/',
-    githubLink: 'https://github.com/bagglerock/Binary-Calculator',
-    description: 'A binary calculator that is written in HTML, CSS, and Javascript',
-    technologies: '',
-  },
-  {
-    name: 'Ajax Event Base Class',
-    img: ajax,
-    projectLink: 'https://bagglerock.github.io/ajax-event-base-class/',
-    githubLink: 'https://github.com/bagglerock/ajax-event-base-class',
-    description:
-      'A small practice project where I made ajax calls in pure Javascript.  It changes data using a click event in a small section of the page acting like a single page application',
-    technologies: '',
-  },
-  {
-    name: 'Scrapoogle',
-    img: scrapooglePng,
-    projectLink: 'https://vast-taiga-79745.herokuapp.com',
-    githubLink: 'https://github.com/bagglerock/Scrapoogle',
-    description:
-      'This is a rewrite of the Scrappy Scraper site using ReactJS with Node backend.  CSS Modules are used in this one to maintain simplicity.',
-    technologies: '',
   },
 ];
