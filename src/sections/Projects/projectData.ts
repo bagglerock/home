@@ -1,12 +1,20 @@
 import chefsDen from '../../assets/projects/chefsden.jpg';
-import freightSys from '../../assets/projects/freight-sys.jpg';
 import hangman from '../../assets/projects/hangman.jpg';
 import knockout from '../../assets/projects/knockout.jpg';
 import peachCo from '../../assets/projects/peachco.gif';
 import rps from '../../assets/projects/rps.jpg';
-import trivia from '../../assets/projects/trivia.jpg';
+import trivia from '../../assets/projects/trivia.png';
 
 export const projects = [
+  {
+    name: 'Trivia Game',
+    img: trivia,
+    projectLink: 'https://bagglerock.github.io/Trivia-React/',
+    githubLink: 'https://github.com/bagglerock/Trivia-React',
+    description:
+      'This is a trivia game written with React using typescript.  It calls upon the Open Trivia DB API for its questions.  It will randomize the questions and answers.  It is still a WIP at the moment but is playable.  More features to come with time.',
+    technologies: 'Node.js, React, Typescript, Bootstrap 4+, CSS with Sass',
+  },
   {
     name: "Chef's Den",
     img: chefsDen,
@@ -25,14 +33,6 @@ export const projects = [
     technologies: 'HTML, CSS, jQuery',
   },
   {
-    name: 'Freight Systems NJ',
-    img: freightSys,
-    projectLink: 'https://bagglerock.github.io/freight-sys',
-    githubLink: 'https://github.com/bagglerock/freight-sys',
-    description: 'Website for Freight Systems of NJ.  A Logistics company for your shipping needs.',
-    technologies: 'HTML, CSS, jQuery',
-  },
-  {
     name: 'Hangman',
     img: hangman,
     projectLink: 'https://bagglerock.github.io/Hangman-Game',
@@ -48,15 +48,6 @@ export const projects = [
     githubLink: 'https://github.com/bagglerock/RPS-Multiplayer',
     description: 'Multiplayer Rock, Paper, Scissors with chat.  Written using HTML, CSS, Bootstrap, and the Firebase API',
     technologies: 'Javascript, jQuery, Firebase, HTML, CSS',
-  },
-  {
-    name: 'Trivia Game',
-    img: trivia,
-    projectLink: 'https://bagglerock.github.io/TriviaGame/',
-    githubLink: 'https://github.com/bagglerock/TriviaGame',
-    description:
-      'This is a fun little take on Trivia.  I could not think of any questions or answers so I wanted to create a list of questions and answers that made absolutely no sense. This is written in basic HTML using some Bootstrap, a little CSS, Javascript and Jquery.  ',
-    technologies: 'Javascript, jQuery, HTML, CSS, Bootstrap',
   },
   {
     name: 'PeachCo Lister 3.0',
