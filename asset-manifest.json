@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/home/static/css/main.8642391f.chunk.css",
+    "main.js": "/home/static/js/main.46ec3e66.chunk.js",
+    "main.js.map": "/home/static/js/main.46ec3e66.chunk.js.map",
+    "runtime-main.js": "/home/static/js/runtime-main.b24d4e3d.js",
+    "runtime-main.js.map": "/home/static/js/runtime-main.b24d4e3d.js.map",
+    "static/js/2.9fc6297b.chunk.js": "/home/static/js/2.9fc6297b.chunk.js",
+    "static/js/2.9fc6297b.chunk.js.map": "/home/static/js/2.9fc6297b.chunk.js.map",
+    "index.html": "/home/index.html",
+    "precache-manifest.6bfa206815cc22aae243b9ac82b2ce6f.js": "/home/precache-manifest.6bfa206815cc22aae243b9ac82b2ce6f.js",
+    "service-worker.js": "/home/service-worker.js",
+    "static/css/main.8642391f.chunk.css.map": "/home/static/css/main.8642391f.chunk.css.map",
+    "static/js/2.9fc6297b.chunk.js.LICENSE.txt": "/home/static/js/2.9fc6297b.chunk.js.LICENSE.txt",
+    "static/media/Material Memories.jpg": "/home/static/media/Material Memories.ea9d371c.jpg",
+    "static/media/index.scss": "/home/static/media/background.9cf80c36.jpeg",
+    "static/media/chefsden.jpg": "/home/static/media/chefsden.11e41b2f.jpg",
+    "static/media/daves_logo_lighter.png": "/home/static/media/daves_logo_lighter.ac2ba3e5.png",
+    "static/media/hangman.jpg": "/home/static/media/hangman.a532f777.jpg",
+    "static/media/jam.png": "/home/static/media/jam.74a510e9.png",
+    "static/media/knockout.jpg": "/home/static/media/knockout.25738e49.jpg",
+    "static/media/kris-01.png": "/home/static/media/kris-01.4b21b1e1.png",
+    "static/media/peachco.gif": "/home/static/media/peachco.0bb88e0d.gif",
+    "static/media/rhe.png": "/home/static/media/rhe.c23adbf0.png",
+    "static/media/rps.jpg": "/home/static/media/rps.fb8ff335.jpg",
+    "static/media/trivia.png": "/home/static/media/trivia.870a1985.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b24d4e3d.js",
+    "static/js/2.9fc6297b.chunk.js",
+    "static/css/main.8642391f.chunk.css",
+    "static/js/main.46ec3e66.chunk.js"
+  ]
+}
